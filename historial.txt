@@ -1,0 +1,58 @@
+    1  ssh-keygen
+    2  cat $HOME/.ssh/*.pub
+    3  cd
+    4  mkdir repogit
+    5  cd repogit
+    6  pwd
+    7  cd repogit
+    8  pwd
+    9  git clone git@github.com:nazarenorossi/TP_AySO.git
+   10  cd TP_AySO/pwd
+   11  pwd
+   12  ls -l
+   13  os-release
+   14  cat /etc/os-release
+   15  grep
+   16  man grep
+   17  grep HOME_URL /etc/os-release
+   18  grep home_url /etc/os-release
+   19  man
+   20  man man
+   21  grep -i Home_url /etc/os-release
+   22  whoami
+   23  echo “Usuario=$(whoami)” > datos_usuario.txt
+   24  git add
+   25  git add .
+   26  git add.
+   27  cd TP_AySO/
+   28  cd TP_AySO
+   29  cd
+   30  cd TP_AySO
+   31  pwd
+   32  cd
+   33  cd repogit
+   34  cd TP_AySO/
+   35  pwd
+   36  echo "Usuario=$(whoami)" > datos_usuario.txt
+   37  git config --global user.email "nazareno.rossi.dev@gmail.com"
+   38  git config --global user.name "nazarenorossi"
+   39  git add .
+   40  git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+   41  git push
+   42  git status
+   43  sd
+   44  grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+   45  cat datos_usuario.txt
+   46  git add datos_usuario.txt
+   47  git commit -m "feat: Añadiendo información de CPU"
+   48  git push
+   49  cat <<EOF >> README.md
+Alumno: Nazareno-Rossi
+División: 311
+Turno: Noche
+EOF
+
+   50  git add README.md datos_usuario.txt
+   51  git commit -m "ADD: Añadiendo Readme y datos de usuario"
+   52  git push
+   53  history > historial.txt
